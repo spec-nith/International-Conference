@@ -774,7 +774,7 @@ p.conf:first-child {
     .text-box .venue {
         font-size: 14px;
     }
-}
+} 
 
 @media(max-width:258px) {
     .text h1 {
