@@ -13,10 +13,12 @@
     font-size: larger;
     padding-bottom: 1rem;
     color: black;
+
 }
 
 #none {
     list-style: none;
+    
 }
 
 #reg {
