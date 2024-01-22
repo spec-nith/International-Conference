@@ -202,6 +202,21 @@ h1 {
     padding: 10px;
     text-align: center;
 }
+@media(max-width:1180px){
+    .advert{
+        margin-top: 14rem !important;
+    }
+}
+@media(max-width:850px){
+    .advert{
+        margin-top: 10rem !important;
+    }
+}
+@media(max-width:450px){
+    .advert{
+        margin-top: 8rem !important;
+    }
+}
 .bottom {
     width: 100%;
     text-align: center;
