@@ -1,0 +1,161 @@
+.registration {
+    font-family: sans-serif;
+    /* height: 52vh; */
+    padding: 6.5rem 2rem 2rem 2rem;
+    /* padding-left: 1.4rem; */
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.note {
+    /* width:fit-content; */
+    list-style: none;
+    font-size: larger;
+    padding-bottom: 1rem;
+    color: black;
+}
+
+#none {
+    list-style: none;
+}
+
+#reg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    /* height: 52vh; */
+    padding: 1rem 8rem 2rem 8rem;
+    font-size: 17px;
+    /* list-style:; */
+    color: #777;
+    text-align: justify;
+    /* padding-left: 1.4rem; */
+    width: fit-content;
+    /* margin: auto; */
+
+}
+
+table {
+    width: 100%;
+    max-width: 65vw;
+    border: 1px solid rgba(101, 17, 17, 0.856);
+    /* border-collapse: collapse; */
+    border-spacing: 0;
+    /* margin: auto; */
+    margin-left: 7rem;
+    /* margin-top: 2rem; */
+    text-align: left;
+    word-wrap: break-word;
+    font-size: 19.2px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px black;
+}
+
+
+
+
+table th,
+table td {
+    border: 0.1px solid #651111;
+    padding: 1.3rem;
+}
+
+table th:not(table .noo) {
+    background-color: rgba(101, 17, 17, 0.37);
+}
+
+table .darker {
+    background-color: rgba(101, 17, 17, 0.189);
+}
+
+@media(max-width:600px) {
+    #reg {
+        padding: 0 2rem;
+
+    }
+}
+
+
+@media(max-width:486px) {
+
+    /* table ,tr,td{
+        display: block;
+        width:10%;
+        max-width: 50vw;
+
+    } */
+    table th,
+    table td {
+        font-size: 15px;
+        padding: 0.5rem;
+    }
+}
+
+@media(max-width:412px) {
+
+    /* table,tr,td{
+        width:9%;
+        max-width: 50vw;
+    } */
+    table th,
+    table td {
+        font-size: 15px;
+        padding: 0.5rem;
+    }
+}
+
+@media(max-width:350px) {
+
+    /* table,tr,td{
+        width:100%;
+        max-width: 50vw;
+    } */
+    table th,
+    table td {
+        font-size: 14px;
+        padding: 0.3rem;
+    }
+}
+
+@media(max-width:334px) {
+
+    /* table,tr,td{
+        width:100%;
+        max-width: 50vw;
+    } */
+    table th,
+    table td {
+        font-size: 12px;
+        padding: 0.3rem;
+    }
+}
+
+h2 {
+    display: none;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
+@media(max-width:777px) {
+    h2 {
+        display: block;
+        background-color: #0a0428ef;
+        width: 40vw;
+        color: white;
+        padding: 0.5rem;
+        /* padding-left:3rem; */
+        margin: auto;
+        border-radius: 0.4rem;
+        margin-bottom:2rem;
+    }
+}
