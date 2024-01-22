@@ -1,0 +1,39 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.authors{
+    padding: 6.5rem 2rem 2rem 0rem;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.authors>h1{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+#majortext{
+    height: 70vh;
+    width: 70vw;
+    text-align: left;
+    /* background-color: aquamarine; */
+    margin: 0rem auto;
+}
+
+#majortext>h2{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+#majortext>a{
+    margin: 10px 10px ;
+    text-decoration: underline;
+    color: #651111;
+    font-weight: 600;
+}
+
