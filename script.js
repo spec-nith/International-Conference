@@ -9,7 +9,7 @@ function hideMenu() {
     navLinks.style.right = "-300px";
 }
 //display start time 
-const date_time1 = new Date('December 21, 2023 12:00:00').getTime();
+const date_time1 = new Date('December 21, 2024 12:00:00').getTime();
 var f_fun = setInterval(function() {
     //display end time  
     const date_time2 = new Date().getTime();
