@@ -798,7 +798,7 @@ p.conf:first-child {
   /* position: relative; */
   flex-direction: row;
   /* padding: 10px; */
-  margin-top: -2rem;
+  margin-top: -6rem;
 }
 
 .about h1:not(.venue, .conf-date, .orgs) {
