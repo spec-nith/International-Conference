@@ -28,11 +28,6 @@ body {
   margin-bottom: 15rem;
 }
 
-.wrapper {
-  overflow-x: hidden;
-  background-color: rgba(107, 17, 17, 0.1);
-}
-
 nav {
   z-index: 11;
   position: fixed;
@@ -94,6 +89,10 @@ nav img {
 
 .active {
   border-bottom: 2px solid white;
+}
+.wrapper2 {
+  background-color: #efe6e6;
+  padding-top: 1rem;
 }
 
 nav .sub-menu {
