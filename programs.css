@@ -750,3 +750,7 @@ td {
         border-radius: 0.4rem;
     }
 }
+
+.strike{
+    text-decoration:line-through;
+}
