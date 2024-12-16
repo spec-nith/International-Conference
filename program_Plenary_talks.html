@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>advisorycommittee</title>
+    <link rel="stylesheet" href="programs.css">
+     <!-- link-font -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css/">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.co*
+     m/css2?family=Noto+Sans:ital,wght@1,300&family=Poppins:ital,wght@0,300;1,100&family=Roboto+Condensed:ital@0;1&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+     <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&amp;display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Raleway:700&amp;display=swap" rel="stylesheet">
+     <!-- font awesome -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     <script src="https://kit.fontawesome.com/yourcode.js"></script>
+     <script src="https://kit.fontawesome.com/17dc185f30.js" crossorigin="anonymous"></script>
+
+     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto Condensed', sans-serif;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgba(107, 17, 17, 0.1);
+            scroll-behavior: smooth;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        table {
+            width: 90%;
+            margin: 2rem auto;
+            border-collapse: collapse;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            background-color: white;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+
+        th {
+            background-color: #651111; /* Dark red */
+            color: white;
+            text-align: left;
+            padding: 15px;
+            font-size: 1rem;
+        }
+
+        td {
+            padding: 15px;
+            border: 1px solid #ddd;
+            font-size: 0.95rem;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: rgba(101, 17, 17, 0.1);
+            cursor: pointer;
+        }
+
+        td img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+
+        td.bold {
+            font-weight: bold;
+        }
+
+        h1 {
+            text-align: center;
+            color: #651111;
+            margin-top: 20px;
+        }
+
+        ::selection {
+            background-color: #162254;
+            color: white;
+        }
+    </style>
+ 
+</head>
+<body>
+    <div class="wrapper">
+        <nav id="navbar">
+            <!-- Link logo -->
+            <a class="logo-pic" href="index.html"><img src="pictures/solidlogo.jpg" alt="mind-2023"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+    
+                <ul>
+                    <li><a href="index.html" >Home</a></li>
+    
+                    <li class="committees"><a>Committees</a>
+                        <div class="sub-menu">
+                            <ul>
+                                <li class="no"><a href="organizingcommittees.html">Organizing Committee</a></li>
+                                <li class="no"><a href="advisorycommittee.html">Advisory Committee</a></li>
+                               
+                            </ul>
+                        </div>
+                    </li>
+    
+                    <li class="committees"><a>Programs</a>
+                        <div class="sub-menu">
+                            <ul>
+                                <li class="no"><a href="programs.html">Technical Schedule</a></li>
+                                <li class="active"><a href="program_Plenary_talks.html">Plenary Talks</a></li>
+                                <li class="no"><a href="program_Session_chair.html">Session Chair</a></li>
+    
+                            </ul>
+                        </div>
+                    </li>
+                    <!-- <li class="active"><a href="programs.html">Program</a></li> -->
+                    <li><a href="calls.html">Calls</a></li>
+                    <li><a href="authors.html">Authors</a></li>
+                    <li><a href="registration.html">Registration</a></li>
+                    <li><a href="accomodation.html">Accommodation</a></li>
+                    <li><a href="venue.html">Venue</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    
+        <div class="Plenary_talks" style="margin-top: 140px; ">
+            <h1 style="text-align: center; color: black;">International Conference on Artificial Intelligence, Device Computing,<br> Communication, and Signal Processing (AIDCCSP 2024)</h1>
+            <h2 style="text-align: center; color: blue;">Department of Electronics and Communication Engineering, NIT Hamirpur,<br> H.P., India</h2>
+            <h3 style="text-align: center; color: red;">20-22 December 2024</h3>
+
+            <h2 style="text-align: center; font-weight: bold; margin-top: 20px;">Plenary Talk Time Schedule:</h2>
+
+            <table>
+                <tr>
+                    <th style="font-size: 20px;">Speaker</th>
+                    <th style="font-size: 20px;">Title Talk</th>
+                </tr>
+                <tr>
+                    <td style="font-size: 20px;">
+                        <img src="pictures/Dr_Ravinder_Singh.jpeg" alt="Dr. Ravinder Singh" style="width: 150px; height: auto;">
+                        Dr. Ravinder Singh <span style="font-size: 16px;">(Head of Digital and Systems Team Cabinet Office - Government Commercial Function (GCF) Civil Services UK)</span>
+                    </td>
+                    <td style="font-size: 18px;">Emerging trends in Electronics and Communication Engineering</td>
+                </tr>
+                <tr>
+                    <td style="font-size: 20px;">
+                        <img src="pictures/Prof_Rajendra_Prasad.jpeg" alt="Prof. Rajendra Prasad Yadav" style="width: 150px; height: auto;">
+                        Prof. Rajendra Prasad Yadav <span style="font-size: 16px;">(Malaviya National Institute of Technology Jaipur)</span>
+                    </td>
+                    <td style="font-size: 18px;">5G Communication</td>
+                </tr>
+                <tr>
+                    <td style="font-size: 20px;">
+                        <img src="pictures/Dr_Amir_Hossein_Oveis.jpeg" alt="Dr. Amir Hossein Oveis" style="width: 150px; height: auto;">
+                        Dr. Amir Hossein Oveis <span style="font-size: 16px;">(National Laboratory of Radar and Surveillance Systems (RaSS), Pisa, Italy)</span><br>
+                        <img src="pictures/Dr_Ajeet_Kumar.jpeg" alt="Dr. Ajeet Kumar" style="width: 150px; height: auto;">
+                        Dr. Ajeet Kumar <span style="font-size: 16px;">(National Laboratory of Radar and Surveillance Systems (RaSS), Pisa, Italy)</span>
+                    </td>
+                    <td style="font-size: 18px;">Emerging Trends in Machine Learning for Polarimetric and/or Interferometric SAR Imaging</td>
+                </tr>
+                <tr>
+                    <td style="font-size: 20px;">
+                        <img src="pictures/Prof_Arun_Kumar_Khosla.jpeg" alt="Prof. Arun Kumar Khosla" style="width: 150px; height: auto;">
+                        Prof. Arun Kumar Khosla <span style="font-size: 16px;">(NIT Jalandhar)</span>
+                    </td>
+                    <td style="font-size: 18px;">Artificial Intelligence</td>
+                </tr>
+            </table>
+            
+            
+            
+        </div>
+
+        <div class="foooter">
+            <section class="footer">
+                <div class="footer-sections" class="hundred">
+                    <a href="https://nith.ac.in" target="_blank">
+                        <h3 class="nit">National Institute of Technology, Hamirpur</h3>
+                    </a>
+                    <div class="nitt">
+                        National Institute of Technology Hamirpur is one of the thirty NITs in the country, established in 1986 as Regional Engineering College, as a joint and cooperative enterprise of the Govt. of India and Govt. of Himachal Pradesh. The goals of the institute
+                        as embodied in the logo are truly remarkable in their scope of vision. The Institute provides undergraduate, postgraduate and doctorate programmes in Engineering, Sciences & Humanities; fostering the spirit of national integration among
+                        the students, a close interaction with industry and a strong emphasis on research, both basic and applied.
+                    </div>
+                </div>
+        
+                <div class="footer-sections">
+                    <h3 class="nit">ORGANIZER</h3>
+                    <div class="logo-footer">
+                        <a href="https://nith.ac.in" target="_blank"><img src="pictures/NITH.png" alt="NITH Logo"></a>
+                    </div>
+                </div>
+            </section>
+        
+            <!--       COPYRIGHT     -->
+            <section class="bottom">
+                <p class="copyright">
+                    Copyright © AIDCCSP 2024. All Rights Reserved
+            </section>
+        
+            <!-- Java Script for toggle menu -->
+            <script src="script.js"></script>
+            <script src="function.js"></script>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="function.js"></script>
+</body>
+</html>
