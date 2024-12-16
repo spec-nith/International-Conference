@@ -19,16 +19,82 @@
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
      <script src="https://kit.fontawesome.com/yourcode.js"></script>
      <script src="https://kit.fontawesome.com/17dc185f30.js" crossorigin="anonymous"></script>
- 
- 
- 
+
+     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto Condensed', sans-serif;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgba(107, 17, 17, 0.1);
+            scroll-behavior: smooth;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        table {
+            width: 90%;
+            margin: 2rem auto;
+            border-collapse: collapse;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            background-color: white;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+
+        th {
+            background-color: #651111; /* Dark red */
+            color: white;
+            text-align: left;
+            padding: 15px;
+            font-size: 1rem;
+        }
+
+        td {
+            padding: 15px;
+            border: 1px solid #ddd;
+            font-size: 0.95rem;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: rgba(101, 17, 17, 0.1);
+            cursor: pointer;
+        }
+
+        td img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+
+        td.bold {
+            font-weight: bold;
+        }
+
+        h1 {
+            text-align: center;
+            color: #651111;
+            margin-top: 20px;
+        }
+
+        ::selection {
+            background-color: #162254;
+            color: white;
+        }
+    </style>
  
 </head>
 <body>
-    
-
-
-
     <div class="wrapper">
         <nav id="navbar">
             <!-- Link logo -->
@@ -52,8 +118,8 @@
                     <li class="committees"><a>Programs</a>
                         <div class="sub-menu">
                             <ul>
-                                <li class="active"><a href="programs.html">Technical Schedule</a></li>
-                                <li class="no"><a href="program_Plenary_talks.html">Plenary Talks</a></li>
+                                <li class="no"><a href="programs.html">Technical Schedule</a></li>
+                                <li class="active"><a href="program_Plenary_talks.html">Plenary Talks</a></li>
                                 <li class="no"><a href="program_Session_chair.html">Session Chair</a></li>
     
                             </ul>
@@ -65,53 +131,59 @@
                     <li><a href="registration.html">Registration</a></li>
                     <li><a href="accomodation.html">Accommodation</a></li>
                     <li><a href="venue.html">Venue</a></li>
-                    
-    
                     <li><a href="contact.html">Contact</a></li>
-                    <!-- <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="sponsorships.html">Sponsorships</a></li> -->
                 </ul>
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
     
-    
-    
-        <section class="programs">
-            <h2>Programs</h2><br>
-            <h1>IMPORTANT DATES</h1>
-    
+        <div class="Plenary_talks" style="margin-top: 140px; ">
+            <h1 style="text-align: center; color: black;">International Conference on Artificial Intelligence, Device Computing,<br> Communication, and Signal Processing (AIDCCSP 2024)</h1>
+            <h2 style="text-align: center; color: blue;">Department of Electronics and Communication Engineering, NIT Hamirpur,<br> H.P., India</h2>
+            <h3 style="text-align: center; color: red;">20-22 December 2024</h3>
+
+            <h2 style="text-align: center; font-weight: bold; margin-top: 20px;">Plenary Talk Time Schedule:</h2>
+
             <table>
                 <tr>
-                    <td>Paper Submission Starts</td>
-                    <td class="darker">March 15 , 2024</td>
+                    <th style="font-size: 20px;">Speaker</th>
+                    <th style="font-size: 20px;">Title Talk</th>
                 </tr>
                 <tr>
-                    <td>Paper Submission Deadline (Hard Deadline)</td>
-                    <td class="darker"> <p class="strike"> October 20, 2024 </p>  November 10, 2024</td> 
-                <tr>
-                    <td>Notification of Acceptance</td>
-                    <td class="darker">
-                        <p class="strike"> November 10 ,2024</p> 
-                        November 20 ,2024</td>
-                </tr>
-                    <td>Camera Ready Submission</td>
-                    <td class="darker">
-                        <p class="strike"> November 20, 2024</p>
-                        December 5, 2024</td>
+                    <td style="font-size: 20px;">
+                        <img src="pictures/Dr_Ravinder_Singh.jpeg" alt="Dr. Ravinder Singh" style="width: 150px; height: auto;">
+                        Dr. Ravinder Singh <span style="font-size: 16px;">(Head of Digital and Systems Team Cabinet Office - Government Commercial Function (GCF) Civil Services UK)</span>
+                    </td>
+                    <td style="font-size: 18px;">Emerging trends in Electronics and Communication Engineering</td>
                 </tr>
                 <tr>
-                    <td>Registration Deadline </td>
-                    <td class="darker">
-                        <p class="strike"> November 20, 2024</p>
-                        December 5, 2024</td>
+                    <td style="font-size: 20px;">
+                        <img src="pictures/Prof_Rajendra_Prasad.jpeg" alt="Prof. Rajendra Prasad Yadav" style="width: 150px; height: auto;">
+                        Prof. Rajendra Prasad Yadav <span style="font-size: 16px;">(Malaviya National Institute of Technology Jaipur)</span>
+                    </td>
+                    <td style="font-size: 18px;">5G Communication</td>
                 </tr>
                 <tr>
-                    <td>Conference Dates</td>
-                    <td class="darker">December 20-22, 2024</td>
+                    <td style="font-size: 20px;">
+                        <img src="pictures/Dr_Amir_Hossein_Oveis.jpeg" alt="Dr. Amir Hossein Oveis" style="width: 150px; height: auto;">
+                        Dr. Amir Hossein Oveis <span style="font-size: 16px;">(National Laboratory of Radar and Surveillance Systems (RaSS), Pisa, Italy)</span><br>
+                        <img src="pictures/Dr_Ajeet_Kumar.jpeg" alt="Dr. Ajeet Kumar" style="width: 150px; height: auto;">
+                        Dr. Ajeet Kumar <span style="font-size: 16px;">(National Laboratory of Radar and Surveillance Systems (RaSS), Pisa, Italy)</span>
+                    </td>
+                    <td style="font-size: 18px;">Emerging Trends in Machine Learning for Polarimetric and/or Interferometric SAR Imaging</td>
+                </tr>
+                <tr>
+                    <td style="font-size: 20px;">
+                        <img src="pictures/Prof_Arun_Kumar_Khosla.jpeg" alt="Prof. Arun Kumar Khosla" style="width: 150px; height: auto;">
+                        Prof. Arun Kumar Khosla <span style="font-size: 16px;">(NIT Jalandhar)</span>
+                    </td>
+                    <td style="font-size: 18px;">Artificial Intelligence</td>
                 </tr>
             </table>
-        </section>
+            
+            
+            
+        </div>
 
         <div class="foooter">
             <section class="footer">
@@ -126,14 +198,12 @@
                     </div>
                 </div>
         
-     
                 <div class="footer-sections">
                     <h3 class="nit">ORGANIZER</h3>
                     <div class="logo-footer">
                         <a href="https://nith.ac.in" target="_blank"><img src="pictures/NITH.png" alt="NITH Logo"></a>
                     </div>
                 </div>
-        
             </section>
         
             <!--       COPYRIGHT     -->
@@ -143,15 +213,11 @@
             </section>
         
             <!-- Java Script for toggle menu -->
-            <script src="script.js">
-            </script>
+            <script src="script.js"></script>
             <script src="function.js"></script>
         </div>
     </div>
-    <script src="script.js">
-    </script>
+    <script src="script.js"></script>
     <script src="function.js"></script>
-
-  
 </body>
 </html>
