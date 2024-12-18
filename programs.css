@@ -754,3 +754,53 @@ td {
 .strike{
     text-decoration:line-through;
 }
+
+
+.speakers {
+    text-align: center;
+    padding: 2rem;
+}
+
+.section-header {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+}
+
+.speaker-tiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.tile {
+    width: 220px; /* Fixed width for all tiles */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.tile img {
+    width: 100%;
+    height: 200px; /* Fixed height */
+    object-fit: cover; /* Ensures image covers the area while maintaining aspect ratio */
+    display: block;
+    border-bottom: 1px solid #ddd;
+}
+
+.speaker-info {
+    padding: 0.5rem;
+}
+
+.speaker-info h3 {
+    font-size: 1rem;
+    margin: 0;
+    line-height: 1.4;
+}
